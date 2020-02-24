@@ -80,6 +80,7 @@ fluid.defaults("gpii.chrome.settings", {
 });
 
 gpii.chrome.settings.updateSettings = function (that, settings) {
+    console.log("updateSettings:", settings);
     that.applier.change("settings", settings || that.options.defaultSettings);
 };
 

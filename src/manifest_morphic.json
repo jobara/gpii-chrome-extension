@@ -10,6 +10,7 @@
             "js/background/contextMenuPanel.js",
             "js/background/chromeSettings.js",
             "js/background/wsConnector.js",
+            "js/background/wsConnector_updated.js",
             "js/background/zoom.js",
             "js/background/morphicConnector.js",
             "js/background/background.js"
